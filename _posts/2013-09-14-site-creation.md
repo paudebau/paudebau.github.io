@@ -1,7 +1,7 @@
 ---
 author: Philippe Audebaud
 title: Site creation
-excerpt: Construction of the site
+excerpt: Colophon
 layout: post
 categories: 
   - Colophon
