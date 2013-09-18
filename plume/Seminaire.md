@@ -181,7 +181,7 @@ Our seminars are usually on Thursdays. Some of them are shared with the [LIMD][]
 
   <span class="semtitle">Constructive proofs of completeness, extra-intuitionistic principles, and delimited control operators</span>
 
-  [[slides]](slides/ilik-06-01-2011.pdf).
+  [slides](slides/ilik-06-01-2011.pdf).
 
 ####  Since September 2010
 

@@ -43,6 +43,7 @@ Preuves][14]).
 [Cogip]: http://perso.ens-lyon.fr/daniel.hirschkoff/cogip/ (COalgebras- and Games- based Interpretations of Processes)
 [Scalp]: http://scalp.gforge.inria.fr/ (Scalp project)
 
+[7]: http://www.agence-nationale-recherche.fr/ (Agence Nationale de la Recherche)
 [8]: http://choco.pps.jussieu.fr/
 [9]: http://www-lipn.univ-paris13.fr/complice/spip.php?rubrique4
 [10]: http://galapagos.gforge.inria.fr/

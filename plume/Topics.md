@@ -134,12 +134,12 @@ _People involved:_ J. Duprat with: L. Vuillon (Université de Savoie)
 Randomised algorithms are widely used either for finding efficiently approximated solutions to complex problems, for instance primality testing, or for obtaining good average behaviour, for instance in distributed computing. They are also often key parts of security enforcement protocols related to cryptographic algorithms. Proving properties of such algorithms requires subtle reasoning both on algorithmic and probabilistic aspects of the programs. Providing tools for the mechanisation of reasoning is consequently an important issue.
 
 As we favour higher-order logic for expressing properties, our approach aims at providing the Coq proof assistant with adequate tools and libraries toward our purpose. From the user point of view, we take the recently introduced probabilistic functional lambdaO-calculus as programming language, and offer program annotations along the same lines as Hoare's Axiomatic Semantics. Coq formulas, a.k.a. verification conditions are generated which take advantage of
-Paulin's axiomatisation of the unit interval [0,1], which should avoid by design the need for developing a full but hopefully useless library for
+Paulin's axiomatisation of the unit interval, which should avoid by design the need for developing a full but hopefully useless library for
 Lebesgue Measure Theory.
 
 This activity is supported by [ Scalp][12] ANR project (2008-2012).
 
-_People involved:_ P. Audebaud with: C. Paulin (LRI, Orsay), Everest team (INRIA, [Sophia-Antipolis][13])
+_People involved:_ P. Audebaud with: C. Paulin (LRI, Orsay), Everest team (INRIA, Sophia-Antipolis)
 
 #####  Game Theory and Equilibria
 
