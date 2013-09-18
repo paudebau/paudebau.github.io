@@ -1,9 +1,10 @@
-destination: ./_site
+# destination: ./_site
+baseurl: /Editeurs/paudebau.github.io
 auto:        true
-lsi:         false
+# lsi:         false
 server_port: 4000
 pygments:    true
-markdown:    rdiscount
 permalink:   date
+markdown:    rdiscount
 rdiscount:
-  extensions: [smart]
+    extensions: [smart]
