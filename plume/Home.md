@@ -27,11 +27,11 @@ tags:
 
   * [Propositions de stage / Internship proposals][Internships]
 
-[Members]: /LIP/PLUME/Members (Plume team)
-[Research]: /LIP/PLUME/Topics (Research topics)
-[Publications]: /LIP/PLUME/Publications (Publications)
-[Software]: /LIP/PLUME/Software (Software)
-[Internships]: /LIP/PLUME/Internships (Internships)
+[Members]: Members (Plume team)
+[Research]: Topics (Research topics)
+[Publications]: Publications (Publications)
+[Software]: Software (Software)
+[Internships]: Internships (Internships)
 
 [GT Plume]: /LIP/PLUME/GdTPlume/ (Groupe de travail Plume)
 [GT Coq]: http://www.ens-lyon.fr/LIP/GTCoq/ (Groupe de travail Coq)
