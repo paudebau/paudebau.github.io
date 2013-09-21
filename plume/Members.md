@@ -36,12 +36,12 @@ Name                   | Position
 
 ###  Invités récents / Visitors
 
-[See News](/LIP/PLUME/News) and [Older News](/LIP/PLUME/Previously) for acurate information.
+[See News](News) and [Older News](Previously) for acurate information.
 
 
 ###  Anciens membres / Former members
 
-[Follow this link](/LIP/PLUME/FormerMembers). As for now, the list is complete from September, 2006. More complete information, since the creation of the *Plume Team*, will be provided soon.
+[Follow this link](FormerMembers). As for now, the list is complete from September, 2006. More complete information, since the creation of the *Plume Team*, will be provided soon.
 
 [Pierre Clairambault]: http://www.cl.cam.ac.uk/~pmc51/
 [Russ Harmer]: http://www.pps.univ-paris-diderot.fr/~russ/
