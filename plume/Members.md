@@ -8,8 +8,8 @@ tags:
 
 ### The team
 
-Name                   | Position
----------------------- | --------
+Name | position
+---- | --------
 [Patrick Baillot][]    | Chercheur / Researcher (CNRS) -- **Responsable scientifique**
 *Catherine Desplanches*  | Assistante administrative / Administrative staff
 [Federico Aschieri][] | Post doctorant ([former position][Federico Aschieri PPS])
