@@ -5,6 +5,12 @@ author: Plume WebMaster
 tags: 
 ---
 
+    <div class="container-narrow">
+      <div class="row-fluid">
+        <div class="span10 offset1">
+          <div class="news-head">/News</div>
+{% if user %}
+
 Le  contenu  des  pages  est intégralement  accessible  sur  le  dépôt
 [`{{  site.repository  }}`][plume-pages]  de  [GitHub][].  Chacun  est
 invité  à  contribuer  pour  réparer  une erreur,  une  typo  ou  plus
@@ -28,11 +34,7 @@ sont  *collaborateurs*,  et à  ce  titre  opèrent directement  sur  le
 contenu édité. Pour les autres  membres de l'équipe, leur contribution
 sera *proposée* via `Prose` pour être intégrée au dépôt.
 
-    <div class="container-narrow">
-      <div class="row-fluid">
-        <div class="span10 offset1">
-          <div class="news-head">/News</div>
-{% for page in site.pages %}
+  {% for page in site.pages %}
           <article class="post">
             <header>
               <h1><a href="{{ site.url }}/{{ page.url }}">{{ page.title }}</a></h1>
@@ -57,7 +59,28 @@ sera *proposée* via `Prose` pour être intégrée au dépôt.
               </div>
             </li>
           </article>
-{% endfor %}
+  {% endfor %}
+{% else %}
+
+Pages servies par ce site :
+
+          <ul>
+  {% for page in site.pages %}
+    {% if !page.reserved %}
+            <li class="post">
+              <div class="row">
+                <div class="col-sm-9">
+                  <a href="{{ site.url}}/{{ page.url }}">{{ page.title }}</a>
+                </div>
+                <div class="col-sm-3 date">
+                  {{ page.date | relative_datetime }}
+                </div>
+              </div>
+            </li>
+    {% endif %}
+  {% endfor %}
+          </ul>
+{% endif %}
         </div>
       </div>
     </div>
