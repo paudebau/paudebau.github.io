@@ -1,6 +1,6 @@
 ---
 title: Groupe de travail
-subject:
+subject: L'actualité du groupe de travail des lundi.
 author: Plume Webmaster
 timestamp: 2012-02-12 07:15:55 +0200
 tags: 

@@ -1,6 +1,6 @@
 ---
 title: Projets de recherche - Research projects
-subject:
+subject: Cette page retient les projets actifs ou clos auxquels certains d'entre nous participent.
 author: Plume Webmaster
 timestamp: 2013-03-28 10:29:46 +0200
 tags: 

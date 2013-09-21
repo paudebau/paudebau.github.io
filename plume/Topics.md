@@ -1,6 +1,6 @@
 ---
 title: Sujets de recherche - Research Topics
-subject:
+subject: Une synthèse des différents thèmes de recherche explorés.
 author: Plume Webmaster
 timestamp: 2012-02-12 07:23:44 +0200
 tags: 

@@ -1,6 +1,6 @@
 ---
 title: Séminaires - Seminars
-subject:
+subject: Le séminaire des jeudis...
 author: Colin Riba
 timestamp: 2012-02-12 07:22:08 +0200
 tags: 

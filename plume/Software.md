@@ -1,6 +1,6 @@
 ---
 title: Logiciels - Software developments
-subject:
+subject: Développement logiciel par des membres de l'équipe.
 author: Plume Webmaster
 timestamp: 2012-02-12 07:22:36 +0200
 tags: 

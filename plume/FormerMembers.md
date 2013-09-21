@@ -1,6 +1,6 @@
 ---
 title: Anciens membres - Former members
-subject: 
+subject: Historique des membres de l'équipe depuis sa création.
 author: Plume Webmaster
 timestamp: 2013-09-02 12:49:11 +0200
 tags: 

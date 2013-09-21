@@ -1,6 +1,6 @@
 ---
 title: Membres - Members
-subject: 
+subject: La liste des membres actuels de l'équipe.
 author: Plume Webmaster
 timestamp:: 2013-09-04 14:23:29 +0200
 tags: 

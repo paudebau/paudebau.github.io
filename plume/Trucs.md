@@ -1,6 +1,6 @@
 ---
 title: Plume, us et coutumes  _(dans une ambiance cordiale, une ambiance rtfm)_
-subject: 
+subject: Accumulation d'informations utiles (bientôt divisée en plusieurs pages).
 author: 
 timestamp: 
 tags: 

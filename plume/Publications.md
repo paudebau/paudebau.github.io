@@ -1,6 +1,6 @@
 ---
 title: Publications - Publications
-ubject:
+ubject: Une vue sur l'ensemble des publications connues de Hal.
 suthor: Plume Webmaster
 timestamp: 2012-02-12 07:21:38 +0200
 tags: 

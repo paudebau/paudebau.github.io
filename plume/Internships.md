@@ -1,6 +1,6 @@
 ---
 title: Stages - Internship Proposals
-subject:
+subject: Les propositions de stage proposés par tel ou tel membre de Plume.
 author: Plume Webmaster
 timestamp: 2012-11-13 10:21:46 +0200
 tags: 

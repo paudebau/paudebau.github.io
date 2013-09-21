@@ -1,6 +1,6 @@
 ---
 title: Dernières nouvelles - Latest news
-subject:
+subject: Actualités récentes de Plume.
 author: Plume WebMaster
 tags: 
 ---

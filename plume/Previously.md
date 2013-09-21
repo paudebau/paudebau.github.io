@@ -1,6 +1,6 @@
 ---
 title: La vie de plume - Plume life
-subject:
+subject: Les nouvelles plus anciennes sont remisées sur cette page.
 author: Plume WebMaster
 tags: 
 ---

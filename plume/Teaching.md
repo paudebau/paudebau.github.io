@@ -1,6 +1,6 @@
 ---
 title: Enseignements - Teaching
-subject:
+subject: Essentiellement un catalogue des lieux où nous intervenons comme enseignants.
 author: Plume Webmaster
 timestamp: 2012-02-12 07:23:16 +0200
 tags: 
