@@ -8,6 +8,7 @@ tags:
 
 ### The team
 
+
 Name | position
 ---- | --------
 [Patrick Baillot][]    | Chercheur / Researcher (CNRS) -- **Responsable scientifique**
