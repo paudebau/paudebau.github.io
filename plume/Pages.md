@@ -34,7 +34,7 @@ sont  *collaborateurs*,  et à  ce  titre  opèrent directement  sur  le
 contenu édité. Pour les autres  membres de l'équipe, leur contribution
 sera *proposée* via `Prose` pour être intégrée au dépôt.
 
-  {% for page in site.pages %}
+  {% for page in page.routes %}
           <article class="post">
             <header>
               <h1><a href="{{ site.url }}/{{ page.url }}">{{ page.title }}</a></h1>
