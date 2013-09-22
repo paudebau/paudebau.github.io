@@ -65,7 +65,7 @@ sera *proposée* via `Prose` pour être intégrée au dépôt.
 Pages servies par ce site :
 
           <ul>
-  {% for page in site.pages %}
+  {% for page in page.routes %}
     {% if !page.reserved %}
             <li class="post">
               <div class="row">
