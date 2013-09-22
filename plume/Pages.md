@@ -5,10 +5,6 @@ author: Plume WebMaster
 tags: 
 ---
 
-    <div class="container-narrow">
-      <div class="row-fluid">
-        <div class="span10 offset1">
-          <div class="news-head">/News</div>
 {% if user %}
 
 Le  contenu  des  pages  est intégralement  accessible  sur  le  dépôt
@@ -34,56 +30,66 @@ sont  *collaborateurs*,  et à  ce  titre  opèrent directement  sur  le
 contenu édité. Pour les autres  membres de l'équipe, leur contribution
 sera *proposée* via `Prose` pour être intégrée au dépôt.
 
-  {% for route in page.routes %}
+<div class="container-narrow">
+  <div class="row-fluid">
+    <div class="span10 offset1">
+      <div class="news-head">/News</div>
+  {% for page in routes %}
           <article class="post">
             <header>
-              <h1><a href="{{ site.url }}/{{ route.url }}">{{ route.title }}</a></h1>
+              <h1><a href="/{{ site.url }}{{ page.url }}">{{ page.url }} - {{ page.title }}</a></h1>
               <div class="postmeta">
-                <span class="date">{{ route.modified }}</span> / 
-                <span class="author-by"> par </span>
-                <span class="author">{{ route.uid }}</span>
+                <span class="date">{{ page.modified }}</span>
                 <div class="clear"></div>
               </div>
             </header>
             <section class="content">
-              {{ route.subject }}
+              {{ page.subject }}
             </section>
             <li class="post">
               <div class="row">
                 <div class="col-sm-9">
-                  <a class="revision-history" href="{{ route.history }}" target="_blank">historique</a>
+                  <a class="revision-history" href="{{ page.history }}" target="_blank">historique</a>
                 </div>
                 <div class="col-sm-3 date">
-                  <a class="btn btn-primary btn-small" href="{{ route.edit }}">éditer</a>
+                  <a class="btn btn-primary btn-small" href="{{ page.edit }}">éditer</a>
                 </div>
               </div>
             </li>
           </article>
   {% endfor %}
+    </div>
+  </div>
+</div>
+
 {% else %}
 
 Pages servies par ce site :
 
+<div class="container-narrow">
+  <div class="row-fluid">
+    <div class="span10 offset1">
+      <div class="news-head"></div>
           <ul>
-  {% for route in page.routes %}
-    {% if !route.reserved %}
+  {% for page in routes %}
+    {% if !page.reserved %}
             <li class="post">
               <div class="row">
                 <div class="col-sm-9">
-                  <a href="{{ site.url}}/{{ route.url }}">{{ route.title }}</a>
+                  <a href="/{{ site.url }}{{ page.url }}">{{ page.url }} - {{ page.title }}</a>
                 </div>
                 <div class="col-sm-3 date">
-                  {{ route.date | relative_datetime }}
+                  {{ page.date | relative_datetime }}
                 </div>
               </div>
             </li>
     {% endif %}
   {% endfor %}
           </ul>
-{% endif %}
-        </div>
-      </div>
     </div>
+  </div>
+</div>
+{% endif %}
 
 [plume-pages]: https://github.com/{{ site.repository }} (Contenu du site de l'équpe)
 [GitHub]: https://github.com (Programmation et édition structurée, basé sur Git)
