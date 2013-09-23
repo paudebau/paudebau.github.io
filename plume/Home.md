@@ -1,9 +1,10 @@
 ---
 title: "Plume Team :: Home Page"
-subject: Contenu apparaissant sur la page d'accueil.
+subject: "Contenu apparaissant sur la page d'accueil."
 author: Plume Webmaster
-timestamp: 2013-03-28 10:39:37 +0200
-tags: 
+timestamp: "2013-03-28 10:39:37 +0200"
+tags: null
+published: true
 ---
 
 ###  Qui sommes-nous ? / Who are we?
@@ -33,7 +34,7 @@ tags:
 [Software]: Software (Software)
 [Internships]: Internships (Internships)
 
-[GT Plume]: /LIP/PLUME/GdTPlume/ (Groupe de travail Plume)
+[GT Plume]: /LIP/PLUME/Gdt (Groupe de travail Plume)
 [GT Coq]: http://www.ens-lyon.fr/LIP/GTCoq/ (Groupe de travail Coq)
 [GT Lyon/Chambéry]: <http://www.lama.univ-savoie.fr/index.php?use=seminaires&&lang=fr&equipe=logique&lang=fr> (Groupe de travail Lyon/Chambéry)
 [Séminaire]: Seminaire (Séminaire Plume)
