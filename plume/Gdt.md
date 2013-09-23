@@ -1,9 +1,10 @@
 ---
 title: Groupe de travail
-subject: L'actualité du groupe de travail des lundi.
+subject: "L'actualité du groupe de travail des lundi."
 author: Plume Webmaster
-timestamp: 2012-02-12 07:15:55 +0200
-tags: 
+timestamp: "2012-02-12 07:15:55 +0200"
+tags: null
+published: true
 ---
 
 _ contact: _ Filippo Bonchi (filippo.bonchi’at’ens-lyon.fr),
@@ -16,6 +17,7 @@ _Exposés à venir : _
 * lundi 24/06/2013, 14h30 : **Erika De Benedetti.** TBA.
 
 _Exposés passés :_
+
 * lundi 10/06/2013, 14h30 : **Matthieu Perrinel.** Context semantics for interaction nets.
 * lundi 03/06/2013, 14h30 : **Simon Castellan.** Concurrent games with symmetry.
 * lundi 27/05/2013, 14h30 : **Federico Aschieri.** Interactive Realizability, Delimited Exceptions and Control Operators.
@@ -120,4 +122,3 @@ _[back to main page][1]_
 
    [1]: http://www.ens-lyon.fr/LIP/PLUME/
    [2]: http://www.ens-lyon.fr/LIP/
-
