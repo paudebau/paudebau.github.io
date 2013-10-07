@@ -4,30 +4,56 @@ subject: "Contenu apparaissant sur la page d'accueil."
 author: Plume Webmaster
 timestamp: "2013-03-28 10:39:37 +0200"
 tags: null
+embedded: true
 published: true
 ---
 
 ###  Qui sommes-nous ? / Who are we?
 
-  * [Membres / Members][Members]
+* [Membres / Members][Members]
 
-  * [Thèmes de recherche / Research Topics][Research]
+* [Thèmes de recherche / Research Topics][Research]
 
-  * **Enseignements / Teaching** : [Computer Science][DI] curriculum at [ENS Lyon][]
+* **Enseignements / Teaching** : [Computer Science][DI] curriculum at [ENS Lyon][]
 
 ###  Activités / Activities
 
-  * **Projets / Projects** : [Récré][] - [PiCoq][] - [Complice][] - [MALOA][] - [Pace][].
+* **Projets / Projects** : [Récré][] - [PiCoq][] - [Complice][] - [MALOA][] - [Pace][].
 
-  * [Publications / Publications][Publications]
+* [Publications / Publications][Publications]
 
-  * [Coq, Développements logiciels / Software][Software]
+* [Coq, Développements logiciels / Software][Software]
 
-  * **Séminaire, groupes de travail, rencontres / Seminars and Meetings** :
+* **Séminaire, groupes de travail, rencontres / Seminars and Meetings** :
     [GT Plume][] - [GT Lyon/Chambéry][] - [Séminaire][] - [Rencontres ChoCoLa][ChoCoLa]
 
-  * [Propositions de stage / Internship proposals][Internships]
+* [Propositions de stage / Internship proposals][Internships]
 
+{% if cas.user %}
+* Les [trucs utiles][Trucs] aux gens à plume...
+{% endif %}
+
+### Actualité / News
+
+Information available as <img src="/{{ site.url }}/img/feed-14x14.png" /> {{ "RSS feed" | links_to "latest-news.xml" | safe }}</p>
+
+<p></p>
+{% load_rss feed_items latest-news.xml %}
+<div class="news">
+ {% if feed_items %}
+ <dl>
+  {% for item in feed_items %}
+      <dt>{{ item.title | links_to item.link | safe }}</dt>
+	      <dd>{{ item.description | safe }}</dd>
+              {% endfor %}
+</dl>
+{% else %}
+ No News is Good News
+{% endif %}
+</div>
+
+
+[Trucs]: Trucs (Trucs utiles aux bêtes à plume)
 [Members]: Members (Plume team)
 [Research]: Topics (Research topics)
 [Publications]: Publications (Publications)
