@@ -17,7 +17,7 @@ The team members are committed in various
 * [Cogip][] _started 01/2011;
 * [Complice][] _started 01/2009_;
 * [Scalp][] _started 01/2008_, ended 12/2012.
-* [Page][] _started 01/2013_.
+* [Pace][] _started 01/2013_.
   
 #### [GDR Informatique Mathématique reseach groups][GDR]
 
