@@ -18,7 +18,7 @@ The team members are committed in various
 * [Complice][] _started 01/2009_;
 * [Scalp][] _started 01/2008_, ended 12/2012.
 * [Pace][] _started 01/2013_.
-  
+
 #### [GDR Informatique Mathématique reseach groups][GDR]
 
 * [Génie de la Programmation et du Logiciel][GPL] ([Langages, Types et Preuves][GDR-GPL]).
