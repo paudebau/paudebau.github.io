@@ -65,17 +65,3 @@ Information available as <img src="/{{ site.url }}/img/feed-14x14.png" /> {{ "RS
 [GT Lyon/Chambéry]: <http://www.lama.univ-savoie.fr/index.php?use=seminaires&&lang=fr&equipe=logique&lang=fr> (Groupe de travail Lyon/Chambéry)
 [Séminaire]: Seminaire (Séminaire Plume)
 
-[CNRS]: http://www.cnrs.fr/ (CNRS)
-[ENS Lyon]: http://www.ens-lyon.fr/ (École Normale Supérieure de Lyon)
-[INRIA]: http://www.inria.fr/ (INRIA)
-[Lyon 1]: http://www.univ-lyon1.fr/ (Université de Lyon 1)
-[LIP]: http://www.ens-lyon.fr/LIP/ (Laboratoire d'Informatique du Parallélisme)
-[DI]: http://www.ens-lyon.fr/DI/ (Département Informatique)
-
-[Pace]: http://perso.ens-lyon.fr/daniel.hirschkoff/pace/
-[PiCoq]: http://sardes.inrialpes.fr/collaborations/PiCoq/
-[Choco]: http://choco.pps.jussieu.fr/ (PPS à Jussieu)
-[ChoCoLa]: http://chocola.ens-lyon.fr/ (Rencontres ChoCoLa)
-[Complice]: http://www-lipn.univ-paris13.fr/complice/spip.php?rubrique4 (Complice project)
-[MALOA]: http://www.maths.leeds.ac.uk/maloa/ (Maloa project)
-[Récré]: http://recre.ens-lyon.fr/ (Récré project)
