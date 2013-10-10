@@ -10,10 +10,10 @@ rdiscount:
     extensions: [smart]
 # Prose.io
 prose:
-  siteurl: http://www.ens-lyon.fr/LIP/PLUME/
-  rooturl: pages
+  siteurl: http://paudebau-desktop.lip.ens-lyon.fr/LIP/PLUME/
+  rooturl: plume
   media: assets/img
-  relativeLinks: http://www.ens-lyon.fr/LIP/PLUME/links.jsonp
+  relativeLinks: http://paudebau-desktop.lip.ens-lyon.fr/LIP/PLUME/links.jsonp
   metadata:
     pages:
       - name: categories
