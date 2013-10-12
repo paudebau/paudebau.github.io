@@ -38,7 +38,7 @@ published: true
 Information available as <img src="/{{ site.url }}/img/feed-14x14.png" /> {{ "RSS feed" | links_to "latest-news.xml" | safe }}</p>
 
 <p></p>
-{% load_rss feed_items latest-news.xml %}
+{% load_rss(feed_items, latest-news.xml) %}
 <div class="news">
  {% if feed_items %}
  <dl>
