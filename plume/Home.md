@@ -38,18 +38,7 @@ published: true
 Information available as <img src="/{{ site.url }}/img/feed-14x14.png" /> {{ "RSS feed" | links_to "latest-news.xml" | safe }}</p>
 
 <p></p>
-{% load_rss feed_items latest-news.xml %}
 <div class="news">
- {% if feed_items %}
- <dl>
-  {% for item in feed_items %}
-      <dt>{{ item.title | links_to item.link | safe }}</dt>
-	      <dd>{{ item.description | safe }}</dd>
-              {% endfor %}
-</dl>
-{% else %}
- No News is Good News
-{% endif %}
 </div>
 
 
