@@ -1,5 +1,5 @@
 ---
-title: "Plume Team :: Home Page"
+title: "Home Page"
 subject: "Contenu apparaissant sur la page d'accueil."
 author: Plume Webmaster
 timestamp: "2013-03-28 10:39:37 +0200"
