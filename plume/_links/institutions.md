@@ -24,6 +24,7 @@ published: true
 [INRIA]: http://www.inria.fr/ (INRIA)
 [Lyon 1]: http://www.univ-lyon1.fr/ (Université de Lyon 1)
 
+[Faculty of Economics and Management, Novi Sad, Serbia]: http://www.ns.ac.yu/en/fakulteti/ekonomski/osnovna.htm
 
 [29]: http://www.qmul.ac.uk/
 [30]: http://www.mat.unisi.it/newsito/dottorando.php?id=174
@@ -36,11 +37,3 @@ published: true
 [45]: http://www.di.unito.it/~likavec/
 
 
-[Faculty of Economics and Management, Novi Sad, Serbia]: http://www.ns.ac.yu/en/fakulteti/ekonomski/osnovna.htm
-
-
-
-*[CNRS]: Centre National de la Recherche Scientifique
-*[ENSL]: École Normale Supérieure de Lyon
-*[UCBL]: Université Claude Bernard de Lyon
-*[INRIA]: Institut National de Recherche en Informatique et Automatique
