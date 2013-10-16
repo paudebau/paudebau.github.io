@@ -15,7 +15,7 @@ published: true
 
 
 [LAMA]: http://www.lama.univ-savoie.fr/ (LAMA)
-[LIMD]: <http://www.lama.univ-savoie.fr/index.php?use=seminaires&equipe=logique&lang=en> (LIMD)
+[LIMD]: http://www.lama.univ-savoie.fr/index.php?use=seminaires&equipe=logique&lang=en (LIMD)
 [PPS]: http://www.pps.jussieu.fr/
 
 
