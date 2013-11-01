@@ -35,7 +35,7 @@ published: true
 
 ### Actualité / News
 
-Information available as <img src="/{{ site.url }}/img/feed-14x14.png" /> {{ "RSS feed" | links_to "latest-news.xml" | safe }}</p>
+Information available as <img src="/{{ site.url }}/img/feed-14x14.png" /> {{ "RSS feed" | links_to("latest-news.xml") }}</p>
 
 <p></p>
 <div class="news">
