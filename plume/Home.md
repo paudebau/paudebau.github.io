@@ -30,7 +30,9 @@ published: true
 * [Propositions de stage / Internship proposals][Internships]
 
 {% if cas.user %}
-* Les [trucs utiles][Trucs] aux gens à plume...
+* Les [trucs utiles][Trucs] aux gens à plume... Et la [liste des oeuvres][Bibli] maintenue par Russ.
+{% else %}
+* *Log in for more...*
 {% endif %}
 
 ### Actualité / News
@@ -44,6 +46,7 @@ Information available as <img src="/{{ site.url }}/img/feed-14x14.png" /> {{ "RS
 
 [Trucs]: Trucs (Trucs utiles aux bêtes à plume)
 [Members]: Members (Plume team)
+[Bibli]: Bibli (Liste des oeuvres - Team collection)
 [Research]: Topics (Research topics)
 [Publications]: Publications (Publications)
 [Software]: Software (Software)
