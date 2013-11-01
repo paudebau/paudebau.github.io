@@ -9,7 +9,7 @@ tags:
 
 ## Publications
 
-<p>Information available as <img src="img/feed-14x14.png" /> {{ "RSS feed" | links_to("http://hal.archives-ouvertes.fr/rss.php?tampon=LIP_PLUME") }}</p>
+Information available as <img src="/{{ site.url }}/img/feed-14x14.png" /> {{ "RSS feed" | links_to("http://hal.archives-ouvertes.fr/rss.php?tampon=LIP_PLUME") }}
 
 <p></p>
 <div class="publis"></div>
